@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		577DB4B6E9D9CD9B28C6E9B7 /* libPods-DiniBilgilerimince.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242CFBB24AFA2021F5142C81 /* libPods-DiniBilgilerimince.a */; };
+		79F562A8279B163100D74DEA /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79F562A7279B163100D74DEA /* AppCenter-Config.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BFE2FAC772C5251BD4B0A584 /* libPods-DiniBilgilerimince-DiniBilgileriminceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E24904FFD7A8B8D813C994A /* libPods-DiniBilgilerimince-DiniBilgileriminceTests.a */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DiniBilgilerimince/main.m; sourceTree = "<group>"; };
 		242CFBB24AFA2021F5142C81 /* libPods-DiniBilgilerimince.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiniBilgilerimince.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E24904FFD7A8B8D813C994A /* libPods-DiniBilgilerimince-DiniBilgileriminceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiniBilgilerimince-DiniBilgileriminceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F562A7279B163100D74DEA /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "DiniBilgilerimince/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DiniBilgilerimince/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		851D997DCBCC768C7C23CFAC /* Pods-DiniBilgilerimince.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiniBilgilerimince.debug.xcconfig"; path = "Target Support Files/Pods-DiniBilgilerimince/Pods-DiniBilgilerimince.debug.xcconfig"; sourceTree = "<group>"; };
 		8D2E3DFCFD88096DC188108F /* Pods-DiniBilgilerimince.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiniBilgilerimince.release.xcconfig"; path = "Target Support Files/Pods-DiniBilgilerimince/Pods-DiniBilgilerimince.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				79F562A7279B163100D74DEA /* AppCenter-Config.plist */,
 			);
 			name = DiniBilgilerimince;
 			sourceTree = "<group>";
@@ -145,7 +148,6 @@
 				B154B8336C478D722965CEE1 /* Pods-DiniBilgilerimince-DiniBilgileriminceTests.debug.xcconfig */,
 				C4118F99F65DB6BEDA6088DD /* Pods-DiniBilgilerimince-DiniBilgileriminceTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				79F562A8279B163100D74DEA /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
